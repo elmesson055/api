@@ -1,0 +1,54 @@
+# Arquivos de configuração
+config/database.php
+*.config
+*.env
+.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Dependências e pacotes
+/vendor/
+/node_modules/
+composer.lock
+
+# Arquivos de log
+*.log
+error_log
+access_log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Arquivos de cache
+/cache/
+*.cache
+
+# Arquivos de backup
+*.bak
+*.backup
+*backup/
+
+# Arquivos de dados sensíveis
+*.pem
+*.key
+*.crt
+*.csr
+*.sql
+*.sqlite
+
+# Outros
+/dist/
+/build/
+.phpunit.result.cache
